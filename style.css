@@ -1,0 +1,140 @@
+body {
+    background-color: #fcfdd8;
+    margin: 0;
+    webkit-text-size-adjust: 100%;
+}
+
+/* 網站標題 - 玉葉青 */
+
+h1 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    background-color: #f7c136;
+    margin: 0;
+    padding: 15px;
+}
+/* 最新消息....閱讀更多*/
+
+    .show{
+        display: none;
+    }
+    .moreButton{
+        cursor: pointer;
+    }
+    .moreButton:hover{
+        color: blue;
+    }
+
+
+select{
+    background-color: #fff;
+    text-align: left;
+    margin: 10px;
+    padding: 5px;
+}
+
+/* 標題 - 玉葉青產品介紹 */
+
+h2 {
+    text-align: center;
+    border-bottom: solid 1px #cccccc;
+    font-size: 1.25em;
+}
+
+/* 各個產品主題 */
+
+h3 {
+    text-align: center;
+    background-color: #e8e8e8;
+    padding: 6px;
+    font-size: 1em;
+}
+
+/* 回到開頭,置中對齊*/
+
+.pagecenter{
+    text-align: center;
+}
+
+/* 頁尾資訊 */
+
+.foot {
+    border-top: solid 2px #53b3d2;
+    background-color: honeydew;
+    text-align: center;
+}
+
+/* 設定了內容寬度的上限 */
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* section */
+
+section {
+    margin: 30px 0 60px;
+}
+
+/* 照片的section */
+
+.photo {
+    margin: 0 0 24px;
+}
+
+.photo ul {
+    border: 2px #5878be dotted;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.photo ul li {
+    list-style-type: none;
+    float: left;
+    width: 33%;
+}
+
+.photo ul li img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 表格 */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border-bottom: solid 1px #cccccc;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* 導覽連結 */
+
+.link ul {
+    padding: 4px;
+    text-align: center;
+}
+
+.link ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 8px;
+}
+
+.link ul li a {
+    color: #53b3d2;
+    text-decoration: none;
+}
+
+.link ul li a:hover {
+    color: #1f8db0;
+    text-decoration: underline;
+}
